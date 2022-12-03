@@ -222,5 +222,9 @@
     .links-list-title {
         font-size: 2.5vw;
     }
+
+    #can-overclocked-input {
+        width: 60%;
+    }
 }
 

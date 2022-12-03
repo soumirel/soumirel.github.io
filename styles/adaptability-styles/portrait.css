@@ -271,6 +271,10 @@
     .links-list-title {
         font-size: 4vw;
     }
+
+    #can-overclocked-input {
+        width:70%;
+    }
 }
 
 @media (min-width: 350px) and (max-width: 600px) {
