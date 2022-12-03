@@ -1,0 +1,14 @@
+#evolution-img,
+#processor-specs-img {
+    float: right;
+    margin-left: 20px;
+    height: 200px;
+    width: auto;
+}
+
+#mobile-hardware-img {
+    float: left;
+    margin-right: 20px;
+    height: 200px;
+    width: auto;
+}

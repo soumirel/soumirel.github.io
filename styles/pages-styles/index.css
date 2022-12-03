@@ -1,0 +1,198 @@
+
+#main-page {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg, #020202b6, #020202b6),
+        url(/images/background.png);
+    background-repeat:repeat-y;
+}
+
+#mainpage-title-box {
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:scroll;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainpage-title {
+    font-size: 5.5vw;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-description {
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.preview-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.box-preview {
+    background-color: #474747;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.lecture-preview {
+    padding: 2% 5% 2% 5%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.lecture-preview-info {
+    padding: 5% 2% 5% 5%;
+}
+
+.lecture-preview-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.lecture-preview-description {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.shop-preview {
+    padding: 2% 3% 3% 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.shop-preview-info {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.shop-preview-title {
+    font-size: 30px;
+    padding: 1%;
+}
+
+.shop-preview-description {
+    font-size: 18px;
+    width: 100%;
+}
+
+.shop-preview-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 3% 3% 0 3%;
+}
+
+.shop-preview-gallery-box {
+    width: 20%;
+    height: 25vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shop-preview-gallery .intel-box
+{
+  background: linear-gradient(45deg, rgba(116, 111, 241, 0.5),rgba(54, 121, 221, 0.5));
+  border: 1px solid rgba(129, 112, 236, 0.4);
+}
+
+.shop-preview-gallery .amd-box
+{
+  background: linear-gradient(45deg, rgba(227, 184, 65, 0.7),rgba(231, 110, 40, 0.7));
+  border: 1px solid rgba(236, 147, 112, 0.4);
+}
+
+.shop-preview-box-img {
+   display: flex;
+   justify-content: center; 
+}
+
+.shop-preview-box-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-preview-box-img img {
+    width: 50%;
+    border-radius: 0;
+    height: auto;
+    text-align: center;
+}
+
+.box-name {
+    font-size: 1.3vw;
+    margin-top: 10px;
+}
+
+.box-description {
+    font-size: 1.1vw;
+}
+
+.gallery-box-more {
+    background-color: #989898;
+}
+
+.plus-box-img img {
+    width: 50px;
+    height: auto;
+}
+
+.overclocking-preview {
+    padding: 2% 5% 2% 5%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.overclocking-preview-info {
+    padding: 5% 5% 5% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.overclocking-preview-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.overclocking-preview-description {
+    font-size: 15px;
+    margin-bottom: 10px;
+}

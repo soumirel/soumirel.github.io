@@ -1,0 +1,259 @@
+
+.shop {
+  grid-area: main;
+  margin-bottom: 5vh;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5vmax;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.container img {
+    display: block;
+    margin: 10%;
+    height: auto;
+    width: 175px;
+}
+
+.container .box
+{
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  transition: 0.5s;
+}
+
+.container .box::before
+{
+  content:' ';
+  position: absolute;
+  top: -12px;
+  left: 50px;
+  width: 70%;
+  height: 110%;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.container .box::after
+{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  border-radius: 8px;
+  transition: 0.5s;
+  filter: blur(30px);
+}
+
+.container .box:hover:before,
+.container .box:hover:after
+{
+  height: 90%;
+  top: 7%;
+  width: 120%;
+  left: -10%;
+  transition: 0.5s;
+}
+
+.container .intel:before,
+.container .intel:after
+{
+  background: linear-gradient(315deg, #4749b7, #8596b9)
+}
+
+.container .amd:before,
+.container .amd:after
+{
+  background: linear-gradient(315deg, #cf592e, #deb443)
+}
+
+
+.container .box .content
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1;
+  transform: 1s;
+  color: #fff;
+}
+
+.container .box:hover .content
+{
+    transition: 400ms;
+    transform: skewX(45deg) translateX(calc(var(--width) + 50%));
+}
+
+.container .box .container:hover {
+    backdrop-filter: blur(5px);
+    z-index: 3;
+}
+
+.container .box .content h2
+{
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.container .box .content img {
+  cursor: pointer;
+}
+
+.container .box .content p
+{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+
+.container .box .content a
+{
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+  font-size: 1.1em;
+  color: #111;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.container .box .content span
+{
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+  margin: 10px;
+
+}
+
+.container .box .content a:hover
+{
+  box-shadow: 0 10px 15px rgba(1, 1, 1, 0.2);
+  color: #ffff;
+}
+
+.container .box .content a:active
+{
+  box-shadow: 0 5px 15px rgba(1, 1, 1, 0.2);
+  transform: scale(0.9);
+}
+
+.container .intel .content a:hover
+{
+  background: linear-gradient(45deg, rgba(134, 131, 218, 0.441),rgba(108, 155, 226, 0.5));
+  border: 1px solid rgba(129, 112, 236, 0.4);
+}
+
+.container .amd .content a:hover
+{
+  background: linear-gradient(45deg, rgba(220, 188, 103, 0.441),rgba(239, 150, 99, 0.5));
+  border: 1px solid rgba(236, 147, 112, 0.4);
+}
+
+.container .box-description {
+  text-align: center;
+}
+
+.container .price {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.tocart-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 18px 10px;
+}
+
+.tocart-frame.intel {
+  background: linear-gradient(45deg, rgba(107, 104, 206, 0.829), rgba(80, 129, 203, 0.829));
+}
+
+.tocart-frame.amd {
+  background: linear-gradient(45deg, rgba(220, 169, 103, 0.829),rgba(239, 136, 99, 0.829));
+}
+
+.glassIco {
+    --width: 100px;
+    width: var(--width);
+    height: var(--width);
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .glassIco:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transition: 0.7s;
+    transform: skewX(45deg) translateX(calc(var(--width) + 50%));
+  }
+  
+  .glassIco:hover:before {
+    transform: skewX(45deg) translateX(calc(var(--width) * -1 - 50%));
+  }
+
+@media (min-width: 770px) and (max-width: 900px) {
+  .container {
+    gap: 4vmax;
+  }
+}
+

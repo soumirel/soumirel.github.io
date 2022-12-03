@@ -1,0 +1,73 @@
+#can-overclocked {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5em;
+}
+
+.can-overclocked-title {
+    text-align: center;
+}
+
+.can-overclicked-header {
+    font-size: 25px;
+}
+
+.can-overclocked-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0.5em;
+}
+
+#can-overclocked-input {
+    width: 30%;
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5em;
+}
+
+.can-overclocked-button {
+    margin-top: 0.5em;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: #d02020;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.can-overclocked-button:hover {
+    background-color: #e42d2d;
+}
+
+.can-overclocked-button:active {
+    transform: scale(0.95);
+}
+
+.can-overclocked-result {
+    text-align: center;
+}
+
+#form-title,
+#form-attetion {
+    text-align: center;
+}
+
+#form-attetion {
+    font-size: 15px;
+}

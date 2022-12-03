@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../icons/processor_favicon.png">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Разгон процессора</title>
+</head>
+<body>
+    <div class="body-wrapper">
+
+        <header>
+            <div>
+                <a class="logo" href="index.html">
+                    <img src="../icons/cpu_logo.png" height="60" width="auto">
+                </a>
+                <a class="site-name" href="index.html">Современные процессоры</a>
+            </div>
+
+            <nav>
+                <a class="nav-btn" href="shop.html">
+                    Магазин
+                </a> 
+
+                <a class="nav-btn" href="lecture.html">
+                    О процессорах
+                </a>
+
+                <a class="nav-btn" href="overclocking.html">
+                    О разгоне
+                </a>
+                <a class="nav-btn" href="about.html">
+                    О сайте
+                </a>
+            </nav>
+            
+            <div class="burger-menu">
+                <input id="menu-toggle" type="checkbox"/>
+                
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu-box">
+                   <li><a class="menu-item" href="index.html">На главную</a></li>
+                    <li><a class="menu-item" href="shop.html">Магазин</a></li>
+                    <li><a class="menu-item" href="lecture.html">О процессорах</a></li>
+                    <li><a class="menu-item" href="overclocking.html">О разгоне</a></li>
+                    <li><a class="menu-item" href="about.html">О сайте</a></li>
+                </ul>
+            </div>
+            
+        </header>
+
+        <main id="main-processor-info">
+
+            <aside id="aside-product">
+                <img src="../images/processor_legs.png">       
+                
+                <nav>
+                    <h3 class="aside-title">
+                        Быстрое перемещение по странице:
+                    </h3>
+                    <div class="links-wrapper">
+                        <a class="aside-box" href="#product">
+                            <span>Основная информация</span>
+                        </a>
+                        <a class="aside-box" href="#specs">
+                            <span>Характеристики</span>
+                        </a>
+                    </div>
+                </nav>
+            </aside>
+
+            <article class="main-content">
+                <section class="product-wrapper intel" id="product">
+
+                    <div class="product">
+                        <div class="product-item img">
+                            <img src="../images/products/core_i9_11.png">
+                        </div>
+
+                        <div class="product-item info">
+                            <div class="info-item name">
+                                <h1>Intel Core i9-11900K</h1>
+                            </div>
+                            <div class="info-item description">
+                                <p>LGA 1200, 8 x 3.5 ГГц, L2 - 4 МБ, L3 - 16 МБ, 2хDDR4-3200 МГц, Intel UHD Graphics 750, TDP 125 Вт
+                                </p>
+                            </div>
+                            <div class="info-item shop">
+                                <div class="price">
+                                    <p>337$</p>
+                                </div>
+                                <div class="buy-btn intel">
+                                    Купить
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="specs" id="specs">
+                        <div class="specs-header">
+                            Характеристики Процессор Intel Core i9-11900K OEM
+                        </div>
+                        <div class="specs-item">
+                            <div class="specs-item-header">Общие параметры</div>
+                            <div class="specs-item-category">Модель</div>
+                            <div class="specs-item-value">Intel Core i9-11900K</div>
+
+                            <div class="specs-item-category">Сокет</div>
+                            <div class="specs-item-value">LGA 1200</div>
+
+                            <div class="specs-item-category">Код производителя</div>
+                            <div class="specs-item-value">[CM8070804400161]</div>
+
+                            <div class="specs-item-category">Год релиза</div>
+                            <div class="specs-item-value">2021</div>
+                        </div>
+
+                        <div class="specs-item">
+                            <div class="specs-item-header">Ядро и архитектура</div>
+                            <div class="specs-item-category">Общее количество ядер</div>
+                            <div class="specs-item-value">8</div>
+
+                            <div class="specs-item-category">Максимальное число потоков </div>
+                            <div class="specs-item-value">16</div>
+
+                            <div class="specs-item-category">Количество производительных ядер</div>
+                            <div class="specs-item-value">8</div>
+
+                            <div class="specs-item-category">Количество энергоэффективных ядер</div>
+                            <div class="specs-item-value">нет</div>
+
+                            <div class="specs-item-category">Объем кэша L2 </div>
+                            <div class="specs-item-value">4 МБ</div>
+
+                            <div class="specs-item-category">Объем кэша L3 </div>
+                            <div class="specs-item-value">16 МБ</div>
+
+                            <div class="specs-item-category">Техпроцесс </div>
+                            <div class="specs-item-value">14 нм</div>
+
+                            <div class="specs-item-category">Ядро </div>
+                            <div class="specs-item-value">Intel Rocket Lake-S</div>
+                        </div>
+
+                        <div class="specs-item">
+                            <div class="specs-item-header">Частота и возможность разгона</div>
+                            <div class="specs-item-category">Базовая частота процессора </div>
+                            <div class="specs-item-value">3.5 ГГц</div>
+
+                            <div class="specs-item-category">Максимальная частота в турбо режиме </div>
+                            <div class="specs-item-value">5.3 ГГц</div>
+
+                            <div class="specs-item-category">Базовая частота энергоэффективных ядер</div>
+                            <div class="specs-item-value">нет</div>
+
+                            <div class="specs-item-category">Частота в турбо режиме энергоэффективных ядер</div>
+                            <div class="specs-item-value">нет</div>
+
+                            <div class="specs-item-category">Свободный множитель </div>
+                            <div class="specs-item-value">Да</div>
+                        </div>
+
+                        <div class="specs-item">
+                            <div class="specs-item-header">Параметры оперативной памяти</div>
+                            <div class="specs-item-category">Тип памяти</div>
+                            <div class="specs-item-value">DDR4</div>
+
+                            <div class="specs-item-category">Максимально поддерживаемый объем памяти</div>
+                            <div class="specs-item-value">128 ГБ</div>
+
+                            <div class="specs-item-category">Количество каналов </div>
+                            <div class="specs-item-value">2</div>
+
+                            <div class="specs-item-category">Максимальная частота оперативной памяти </div>
+                            <div class="specs-item-value">3200 МГц</div>
+                        </div>
+
+                        <div class="specs-item">
+                            <div class="specs-item-header">Тепловые характеристики</div>
+                            <div class="specs-item-category">Тепловыделение (TDP)</div>
+                            <div class="specs-item-value">125 Вт</div>
+
+                            <div class="specs-item-category">Базовое тепловыделение</div>
+                            <div class="specs-item-value">125 Вт</div>
+
+                            <div class="specs-item-category">Максимальная температура процессора </div>
+                            <div class="specs-item-value">100 °C</div>
+                        </div>
+
+                        <div class="specs-item">
+                            <div class="specs-item-header">Графическое ядро</div>
+                            <div class="specs-item-category">Интегрированное графическое ядро</div>
+                            <div class="specs-item-value">есть</div>
+
+                            <div class="specs-item-category">Модель графического процессора</div>
+                            <div class="specs-item-value">Intel UHD Graphics 750</div>
+
+                            <div class="specs-item-category">Максимальная частота графического ядра </div>
+                            <div class="specs-item-value">1300 МГц</div>
+
+                            <div class="specs-item-category">Исполнительные блоки </div>
+                            <div class="specs-item-value">32</div>
+
+                            <div class="specs-item-category">Потоковые процессоры (Shading Units) </div>
+                            <div class="specs-item-value">256</div>
+                        </div>
+
+                        <div class="specs-item">
+                            <div class="specs-item-header">Шина и контроллеры</div>
+                            <div class="specs-item-category">Встроенный контроллер PCI Express </div>
+                            <div class="specs-item-value">PCI-E 4.0</div>
+
+                            <div class="specs-item-category">Число линий PCI Express </div>
+                            <div class="specs-item-value">20 шт</div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <div class="footer-links">
+                <div class="footer-container">
+                    <h2>Навигация по странице</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">В начало страницы</a></li>
+                            <li><a href="#product">Основная информация</a></li>
+                            <li><a href="#specs">Характеристики</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <div class="footer-container">
+                <h2>Навигация по сайту</h2>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Главная страница</a></li>
+                        <li><a href="lecture.html">О процессорах</a></li>
+                        <li><a href="overclocking.html">О разгоне процессоров</a></li>
+                        <li><a href="shop.html">Магазин</a></li>
+                        <li><a href="about.html">О сайте</a></li>
+                    </ul>
+                </nav>
+                </div>
+    
+                <div class="footer-container">
+                <h2>Магазин</h2>
+                <nav>
+                    <ul>
+                        <li><a href="corei9_13900K.html">Intel Core i9-13900K</a></li>
+                        <li><a href="corei9_11900K.html">Intel Core i9-11900K</a></li>
+                        <li><a href="corei3_12300.html">Intel Core i3-12300</a></li>
+                        <li><a href="r9_7950X.html">AMD Ryzen 9 7950X</a></li>
+                        <li><a href="r9_5900X.html">AMD Ryzen 9 5900X</a></li>
+                        <li><a href="r7_7700X.html">AMD Ryzen 7 7700X</a></li>
+                    </ul>
+                </nav>
+                </div>
+    
+                <div class="footer-container">
+                    <h2>Информация об авторе</h2>
+                    <div class="ft-ct-contact-token">
+                        Студент РТУ МИРЭА Мазанов Алексей Евгеньевич, группа ИКБО-03-21
+                    </div>
+    
+                    <div class="ft-ct-contact-token">
+                        +7 (995) 341-57-99
+                    </div>
+    
+                    <div class="ft-ct-contact-token">
+                        soumirel.rofl@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="copyrights-content">© Современные процессоры. Мазанов А. Е., 2022
+                </span>
+            </div>
+        </footer>
+           
+    </div>
+    <script src="../js/product.js"></script>
+</body>
+</html>

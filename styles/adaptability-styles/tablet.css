@@ -1,0 +1,226 @@
+@media (min-width: 600px) and (max-width: 1150px) {
+
+    header nav {
+        display: none;
+    }
+
+    header .burger-menu {
+        display: flex;
+    }
+
+    .title {
+        font-size: 4.5vw;
+    }
+
+    .under-title {
+        font-size: 3vw;
+    }
+
+    .title-box .title-img {
+        width: 100%;
+    }
+
+    #mainpage-title {
+        font-size: 7vw;
+        width: 80%;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    #mainpage-title-box {
+        flex-wrap: wrap;
+    }
+
+    #first-description {
+        order: -1;
+    }
+
+    .title-description {
+        width: 60%;
+        font-size: 2.3vw;
+    }
+
+    .subtitle {
+        font-size: 3.5vw;
+    }
+
+    .inner-title {
+        font-size: 3vw;
+    }
+
+    .main-text {
+        font-size:2.5vw;
+    }
+
+    .subtitle,
+    .inner-title {
+        text-align: center;
+    }
+
+    .lecture-preview,
+    .overclocking-preview {
+        padding: 4% 5% 2% 5%;
+        flex-direction: column;
+    }
+
+    
+    .lecture-preview-title,
+    .lecture-preview-description,
+    .lecture-preview-link {
+        text-align: center;
+    }
+
+    .lecture-preview-img,
+    .overclocking-preview-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lecture-preview-img img,
+    .overclocking-preview-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .shop-preview-gallery {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .shop-preview-box-img {
+        width: 20vw;
+    }
+
+    .shop-preview-box-img img {
+        width: 70%;
+    }
+
+    .shop-preview-gallery-box {
+        width: 80%;
+        height: 25vh;
+        flex-direction: row;
+    }
+
+    .gallery-box-more {
+        height: 10vh;
+        background-color: #989898;
+    }
+
+    .gallery-box-more img{
+        width: 20%;
+    }
+
+    .overclocking-preview-info {
+        padding: 5% 5% 2% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-name {
+        font-size: 2.5vw;
+    }
+    
+    .box-description {
+        font-size: 1.8vw;
+    }
+    
+    main {
+        width: 80%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "sidebar"
+        "main";
+    }
+
+    #shop-main {
+        width: 87%;
+    }
+
+    #main-processor-info {
+        grid-template-areas: 
+        "title"
+        "sidebar"
+        "main";
+    }
+
+    .product-item.info .info-item.shop .buy-btn {
+        width: 50%;
+    }
+
+    .product {
+        width: 85%;
+    }
+
+    aside {
+        border-radius: 20px;
+    }
+
+    aside img {
+        display: none;
+    }
+
+    #evolution-img,
+    #processor-specs-img,
+    #mobile-hardware-img  {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        width: 70%;
+        height: auto;
+    }
+
+    #processor-specs-img {
+        width: 60%;
+    }
+
+    .cart-container,
+    .filter-container,
+    .cart-summary {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-content {
+        width: 60%;
+    }
+
+    .cart-summary-amount-name,
+    .cart-summary-amount-value,
+    .cart-summary-price-name,
+    .cart-summary-price-value,
+    .cart-good {
+        font-size: 18px;
+    }
+
+    #shop-aside img {
+        display: block;
+    }
+
+    .container .box .content span {
+        text-align: center;
+    }
+    
+    .about-container-item {
+        font-size: 2.5vw;
+    }
+
+    .links-list nav {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+    .links-list nav a {
+        font-size: 2vw;
+    }
+
+    .links-list-title {
+        font-size: 2.5vw;
+    }
+}
+

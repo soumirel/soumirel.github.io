@@ -1,0 +1,17 @@
+@import "../styles/default-styles/main-style.css";
+@import "../styles/default-styles/header.css";
+@import "../styles/default-styles/footer.css";
+@import "../styles/default-styles/aside.css";
+@import "../styles/default-styles/burger-menu.css";
+@import "../styles/default-styles/scrollbar-style.css";
+
+@import "../styles/pages-styles/shop.css";
+@import "../styles/pages-styles/shop-aside.css";
+@import "../styles/pages-styles/lecture.css";
+@import "../styles/pages-styles/index.css";
+@import "../styles/pages-styles/product.css";
+@import "../styles/pages-styles/overclocking.css";
+@import "../styles/pages-styles/about.css";
+
+@import "../styles/adaptability-styles/tablet.css";
+@import "../styles/adaptability-styles/portrait.css";
